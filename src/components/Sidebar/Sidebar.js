@@ -67,22 +67,6 @@ function Sidebar() {
         </div>
       </div>
 
-      <div className="sidebar__voice">
-        <SignalCellularAltIcon
-          className="sidebar__voiceIcon"
-          fontSize="large"
-        />
-        <div className="sidebar__voiceInfo">
-          <h3>Voice Connected</h3>
-          <p>Stream</p>
-        </div>
-
-        <div className="sidebar__voiceIcons">
-          <InfoOutlinedIcon />
-          <CallIcon />
-        </div>
-      </div>
-
       <div className="sidebar__profile">
         <Avatar onClick={() => auth.signOut()} src={user.photo} />
         <div className="sidebar__profileInfo">
@@ -91,8 +75,6 @@ function Sidebar() {
         </div>
 
         <div className="sidebar__profileIcons">
-          <MicIcon />
-          <HeadsetIcon />
           <SettingsIcon />
         </div>
       </div>
