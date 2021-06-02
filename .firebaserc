@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "production": "mood-chat-16131"
+  },
+  "targets": {
+    "mood-chat-16131": {
+      "hosting": {
+        "moodchat": [
+          "mood-chat"
+        ]
+      }
+    }
+  }
+}
