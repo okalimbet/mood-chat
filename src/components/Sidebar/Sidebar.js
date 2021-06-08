@@ -42,8 +42,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <h3>Srikar's Server</h3>
-        <ExpandMoreIcon />
+        <h3>Mood chat</h3>
       </div>
 
       <div className="sidebar__channels">
