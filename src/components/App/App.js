@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import Chat from "../Chat/Chat";
 import Sidebar from "../Sidebar/Sidebar";
+import Graph from '../Graph/Graph'
 import { selectUser } from "../redux/userSlice";
 import Login from "../Login/Login";
 import { auth } from "../../firebase";
@@ -39,6 +40,7 @@ const App = () => {
         <>
           <Sidebar />
           <Chat />
+          <Graph />
         </>
       ) : (
         <Login />
